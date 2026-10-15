@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Maria Louisa Alfianto — Junior Cloud Engineer</title>
+  <title>Maria Louisa Alfianto — Network Engineer</title>
   <meta name="description" content="Portfolio of a Computer Science student at BINUS University Bandung, specializing in Cloud Computing, GCP VPC design, IPv4 subnetting, and relational database infrastructure." />
 
   <!-- Tailwind CSS via CDN -->
@@ -63,7 +63,7 @@
 
   <!-- ============================= NAVBAR ============================= -->
   <header class="sticky top-0 z-50 border-b border-slate-200/70 bg-white/80 backdrop-blur-md dark:border-slate-800/70 dark:bg-slate-950/80">
-    <nav class="mx-auto flex max-w-6xl items-center justify-between px-5 py-3">
+    <nav class="relative flex w-full items-center justify-between px-4 py-3 sm:px-6 lg:px-10">
       <!-- Logo -->
       <a href="#home" class="flex items-center gap-2 font-bold tracking-tight">
         <span class="flex h-9 w-9 items-center justify-center rounded-lg bg-brand-600 text-white">
@@ -122,17 +122,17 @@
             Bandung, Indonesia · Open to Internships
           </span>
 
-          <!-- EDIT NAME -->
+          <!-- EDIT -->
           <h1 class="mt-5 text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl">
             Maria Louisa Alfianto
           </h1>
 
           <p class="mt-4 text-lg font-semibold text-brand-700 dark:text-brand-500 sm:text-xl">
-            Computer Science Student (Class of 2028) | Junior Cloud Engineer &amp; Cloud Infrastructure Associate
+            Computer Science Student (Class of 2028) | Network Engineer &amp; Infrastructure Associate
           </p>
 
           <p class="mt-4 max-w-2xl text-base text-slate-600 dark:text-slate-400">
-            Specializing in Cloud Computing, GCP Virtual Private Cloud (VPC) topology design, IPv4 Subnetting/CIDR, and Relational Database Infrastructure.
+            Specializing in IPv4 Subnetting, Network Topology Architecture, Routing Concepts, Firewalls, and Relational Database Infrastructure.
           </p>
 
           <!-- Action buttons -->
@@ -151,7 +151,7 @@
               View Certifications
             </a>
 
-            <!-- GitHub profile: new tab. EDIT GITHUB URL HERE -->
+            <!-- GitHub profile: new tab -->
             <!-- Inline SVG used because Lucide's CDN no longer ships a reliable "github" brand icon -->
             <a href="https://github.com/Maria6787" target="_blank" rel="noopener"
               class="inline-flex items-center gap-2 rounded-lg border border-slate-300 bg-white px-5 py-3 text-sm font-semibold text-slate-700 shadow-sm transition hover:bg-slate-100 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200 dark:hover:bg-slate-800">
@@ -161,6 +161,7 @@
               GitHub Profile
             </a>
 
+            <!-- LinkedIn profile -->
             <a href="https://www.linkedin.com/in/maria-alfianto-307638326" target="_blank" rel="noopener" class="inline-flex items-center gap-2 rounded-lg border border-slate-300 bg-white px-5 py-3 text-sm font-semibold text-slate-700 shadow-sm transition hover:bg-slate-100 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200 dark:hover:bg-slate-800">
               <svg class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                 <path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.22.79 24 1.77 24h20.45c.98 0 1.78-.78 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/>
@@ -182,7 +183,7 @@
             </div>
             <div class="flex items-center gap-2 text-slate-600 dark:text-slate-400">
               <i data-lucide="cloud" class="h-4 w-4 text-brand-600"></i>
-              Cloud Computing Specialization
+              Network Infrastructure Focus
             </div>
           </div>
         </div>
@@ -190,39 +191,34 @@
     </section>
 
     <!-- ============================= ABOUT & EDUCATION ============================= -->
-    <section id="about" class="border-t border-slate-200 bg-white py-20 dark:border-slate-800 dark:bg-slate-900">
+    <section id="about" class="border-t border-slate-200 bg-white py-16 sm:py-20 dark:border-slate-800 dark:bg-slate-900">
       <div class="mx-auto max-w-6xl px-5">
-        <div class="mb-12 max-w-2xl">
+        <div class="mb-10 max-w-2xl sm:mb-12">
           <h2 class="text-3xl font-bold tracking-tight">About &amp; Education</h2>
           <p class="mt-3 text-slate-600 dark:text-slate-400">
-            A quick look at my background, focus areas, and academic journey toward a career in cloud infrastructure.
+            A quick, professional snapshot of my background, focus, and academic journey toward network infrastructure.
           </p>
         </div>
 
         <div class="grid gap-6 md:grid-cols-2">
-          <!-- Card 1: Professional Profile & Experience -->
-          <div class="rounded-2xl border border-slate-200 bg-slate-50 p-7 dark:border-slate-800 dark:bg-slate-950">
+          <!-- Card 1 -->
+          <div class="rounded-2xl border border-slate-200 bg-slate-50 p-6 sm:p-7 dark:border-slate-800 dark:bg-slate-950">
             <div class="mb-4 flex items-center gap-3">
               <span class="flex h-10 w-10 items-center justify-center rounded-lg bg-brand-600/10 text-brand-600">
                 <i data-lucide="user-round" class="h-5 w-5"></i>
               </span>
-              <h3 class="text-xl font-semibold">Professional Profile &amp; Experience</h3>
+              <h3 class="text-lg font-semibold sm:text-xl">Professional Profile</h3>
             </div>
-
             <p class="text-sm leading-relaxed text-slate-600 dark:text-slate-400">
-              Computer Science student at <strong class="font-semibold text-slate-800 dark:text-slate-200">Bina Nusantara University (BINUS University) — Bandung</strong>, building a strong foundation in cloud infrastructure.
+              Computer Science student at <strong class="font-semibold text-slate-800 dark:text-slate-200">Bina Nusantara University (BINUS University) — Bandung</strong>, focused on building a strong foundation in network engineering and infrastructure.
             </p>
-
             <p class="mt-4 text-sm leading-relaxed text-slate-600 dark:text-slate-400">
               <span class="font-semibold text-slate-800 dark:text-slate-200">Focus areas:</span>
-              VPC architecture, public/private subnets, cloud security &amp; firewalls, database administration, and Linux system administration.
+              IPv4 subnetting &amp; CIDR, network topology design, routing &amp; switching concepts, VLANs, firewalls &amp; network security, TCP/IP, and relational database infrastructure.
             </p>
-
             <div class="mt-6 rounded-xl border border-slate-200 bg-white p-5 dark:border-slate-800 dark:bg-slate-900">
               <div class="flex items-center justify-between gap-3">
-                <h4 class="text-sm font-semibold text-slate-800 dark:text-slate-200">
-                  KMK BINUS University — Staff of Logistics &amp; Equipment (Perkap)
-                </h4>
+                <h4 class="text-sm font-semibold text-slate-800 dark:text-slate-200">KMK BINUS University — Staff of Logistics &amp; Equipment</h4>
                 <span class="whitespace-nowrap rounded-full bg-brand-600/10 px-2.5 py-1 text-xs font-medium text-brand-700 dark:text-brand-500">2025–2026</span>
               </div>
               <p class="mt-2 text-sm leading-relaxed text-slate-600 dark:text-slate-400">
@@ -260,10 +256,9 @@
               <div class="flex flex-wrap gap-2">
                 <span class="rounded-full border border-slate-200 bg-white px-3 py-1 text-xs font-medium text-slate-700 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300">Computer Networks</span>
                 <span class="rounded-full border border-slate-200 bg-white px-3 py-1 text-xs font-medium text-slate-700 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300">Database Technology</span>
-                <span class="rounded-full border border-slate-200 bg-white px-3 py-1 text-xs font-medium text-slate-700 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300">Cloud Computing &amp; Services</span>
-                <span class="rounded-full border border-slate-200 bg-white px-3 py-1 text-xs font-medium text-slate-700 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300">Cloud Security</span>
                 <span class="rounded-full border border-slate-200 bg-white px-3 py-1 text-xs font-medium text-slate-700 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300">Operating Systems</span>
-                <span class="rounded-full border border-slate-200 bg-white px-3 py-1 text-xs font-medium text-slate-700 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300">DevOps in Cloud Environments</span>
+                <span class="rounded-full border border-slate-200 bg-white px-3 py-1 text-xs font-medium text-slate-700 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300">Network Security</span>
+                <span class="rounded-full border border-slate-200 bg-white px-3 py-1 text-xs font-medium text-slate-700 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300">Cloud Computing &amp; Services</span>
                 <span class="rounded-full border border-slate-200 bg-white px-3 py-1 text-xs font-medium text-slate-700 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300">Software Engineering</span>
               </div>
             </div>
@@ -272,69 +267,57 @@
       </div>
     </section>
 
-    <!-- ============================= TECHNICAL SKILLS ============================= -->
-    <section id="skills" class="border-t border-slate-200 py-20 dark:border-slate-800">
+    <!-- ============================= SKILLS ============================= -->
+    <section id="skills" class="border-t border-slate-200 py-16 sm:py-20 dark:border-slate-800">
       <div class="mx-auto max-w-6xl px-5">
-        <div class="mb-12 max-w-2xl">
+        <div class="mb-10 max-w-2xl sm:mb-12">
           <h2 class="text-3xl font-bold tracking-tight">Technical Skills</h2>
-          <p class="mt-3 text-slate-600 dark:text-slate-400">
-            Cloud and infrastructure skills grouped by domain — the toolkit I bring to a Cloud Engineering role.
-          </p>
+          <p class="mt-3 text-slate-600 dark:text-slate-400">Network and infrastructure skills grouped by domain.</p>
         </div>
 
         <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-          <!-- Category 1 -->
+          <!-- Cat 1 -->
           <div class="rounded-2xl border border-slate-200 bg-white p-6 dark:border-slate-800 dark:bg-slate-900">
-            <span class="mb-4 flex h-11 w-11 items-center justify-center rounded-lg bg-brand-600/10 text-brand-600">
-              <i data-lucide="cloud-cog" class="h-5 w-5"></i>
-            </span>
-            <h3 class="mb-3 text-base font-semibold">Cloud Platforms &amp; Infrastructure</h3>
-            <ul class="space-y-2 text-sm text-slate-600 dark:text-slate-400">
-              <li class="flex items-center gap-2"><i data-lucide="check" class="h-4 w-4 text-brand-600"></i>GCP</li>
-              <li class="flex items-center gap-2"><i data-lucide="check" class="h-4 w-4 text-brand-600"></i>VPC Architecture</li>
-              <li class="flex items-center gap-2"><i data-lucide="check" class="h-4 w-4 text-brand-600"></i>IAM</li>
-              <li class="flex items-center gap-2"><i data-lucide="check" class="h-4 w-4 text-brand-600"></i>Compute Engine</li>
-              <li class="flex items-center gap-2"><i data-lucide="check" class="h-4 w-4 text-brand-600"></i>Cloud Fundamentals</li>
-            </ul>
-          </div>
-
-          <!-- Category 2 -->
-          <div class="rounded-2xl border border-slate-200 bg-white p-6 dark:border-slate-800 dark:bg-slate-900">
-            <span class="mb-4 flex h-11 w-11 items-center justify-center rounded-lg bg-brand-600/10 text-brand-600">
-              <i data-lucide="shield-check" class="h-5 w-5"></i>
-            </span>
-            <h3 class="mb-3 text-base font-semibold">Networking &amp; Security</h3>
+            <span class="mb-4 flex h-11 w-11 items-center justify-center rounded-lg bg-brand-600/10 text-brand-600"><i data-lucide="router" class="h-5 w-5"></i></span>
+            <h3 class="mb-3 text-base font-semibold">Networking &amp; Protocols</h3>
             <ul class="space-y-2 text-sm text-slate-600 dark:text-slate-400">
               <li class="flex items-center gap-2"><i data-lucide="check" class="h-4 w-4 text-brand-600"></i>IPv4 Subnetting &amp; CIDR</li>
-              <li class="flex items-center gap-2"><i data-lucide="check" class="h-4 w-4 text-brand-600"></i>Cloud Security</li>
-              <li class="flex items-center gap-2"><i data-lucide="check" class="h-4 w-4 text-brand-600"></i>Firewalls / Security Groups</li>
+              <li class="flex items-center gap-2"><i data-lucide="check" class="h-4 w-4 text-brand-600"></i>TCP/IP Stack</li>
+              <li class="flex items-center gap-2"><i data-lucide="check" class="h-4 w-4 text-brand-600"></i>DNS</li>
+              <li class="flex items-center gap-2"><i data-lucide="check" class="h-4 w-4 text-brand-600"></i>DHCP</li>
               <li class="flex items-center gap-2"><i data-lucide="check" class="h-4 w-4 text-brand-600"></i>Routing Concepts</li>
+              <li class="flex items-center gap-2"><i data-lucide="check" class="h-4 w-4 text-brand-600"></i>VLANs</li>
             </ul>
           </div>
-
-          <!-- Category 3 -->
+          <!-- Cat 2 -->
           <div class="rounded-2xl border border-slate-200 bg-white p-6 dark:border-slate-800 dark:bg-slate-900">
-            <span class="mb-4 flex h-11 w-11 items-center justify-center rounded-lg bg-brand-600/10 text-brand-600">
-              <i data-lucide="database" class="h-5 w-5"></i>
-            </span>
+            <span class="mb-4 flex h-11 w-11 items-center justify-center rounded-lg bg-brand-600/10 text-brand-600"><i data-lucide="shield-check" class="h-5 w-5"></i></span>
+            <h3 class="mb-3 text-base font-semibold">Network Security &amp; Firewalls</h3>
+            <ul class="space-y-2 text-sm text-slate-600 dark:text-slate-400">
+              <li class="flex items-center gap-2"><i data-lucide="check" class="h-4 w-4 text-brand-600"></i>Network Topology Design</li>
+              <li class="flex items-center gap-2"><i data-lucide="check" class="h-4 w-4 text-brand-600"></i>Firewalls / Security Groups</li>
+              <li class="flex items-center gap-2"><i data-lucide="check" class="h-4 w-4 text-brand-600"></i>ACLs</li>
+              <li class="flex items-center gap-2"><i data-lucide="check" class="h-4 w-4 text-brand-600"></i>Cloud Security Basics</li>
+            </ul>
+          </div>
+          <!-- Cat 3 -->
+          <div class="rounded-2xl border border-slate-200 bg-white p-6 dark:border-slate-800 dark:bg-slate-900">
+            <span class="mb-4 flex h-11 w-11 items-center justify-center rounded-lg bg-brand-600/10 text-brand-600"><i data-lucide="database" class="h-5 w-5"></i></span>
             <h3 class="mb-3 text-base font-semibold">Databases &amp; Storage</h3>
             <ul class="space-y-2 text-sm text-slate-600 dark:text-slate-400">
               <li class="flex items-center gap-2"><i data-lucide="check" class="h-4 w-4 text-brand-600"></i>Relational Databases (MySQL / PostgreSQL)</li>
               <li class="flex items-center gap-2"><i data-lucide="check" class="h-4 w-4 text-brand-600"></i>SQL Schema Design</li>
-              <li class="flex items-center gap-2"><i data-lucide="check" class="h-4 w-4 text-brand-600"></i>Data Storage Fundamentals</li>
+              <li class="flex items-center gap-2"><i data-lucide="check" class="h-4 w-4 text-brand-600"></i>DDL Scripting</li>
             </ul>
           </div>
-
-          <!-- Category 4 -->
+          <!-- Cat 4 -->
           <div class="rounded-2xl border border-slate-200 bg-white p-6 dark:border-slate-800 dark:bg-slate-900">
-            <span class="mb-4 flex h-11 w-11 items-center justify-center rounded-lg bg-brand-600/10 text-brand-600">
-              <i data-lucide="terminal" class="h-5 w-5"></i>
-            </span>
-            <h3 class="mb-3 text-base font-semibold">Environment &amp; Tools</h3>
+            <span class="mb-4 flex h-11 w-11 items-center justify-center rounded-lg bg-brand-600/10 text-brand-600"><i data-lucide="terminal" class="h-5 w-5"></i></span>
+            <h3 class="mb-3 text-base font-semibold">Operating Systems &amp; Tools</h3>
             <ul class="space-y-2 text-sm text-slate-600 dark:text-slate-400">
-              <li class="flex items-center gap-2"><i data-lucide="check" class="h-4 w-4 text-brand-600"></i>Basic Linux CLI Navigation</li>
-              <li class="flex items-center gap-2"><i data-lucide="check" class="h-4 w-4 text-brand-600"></i>Git Version Control</li>
+              <li class="flex items-center gap-2"><i data-lucide="check" class="h-4 w-4 text-brand-600"></i>Linux/Unix CLI Navigation</li>
               <li class="flex items-center gap-2"><i data-lucide="check" class="h-4 w-4 text-brand-600"></i>System Administration Basics</li>
+              <li class="flex items-center gap-2"><i data-lucide="check" class="h-4 w-4 text-brand-600"></i>Git Version Control</li>
             </ul>
           </div>
         </div>
@@ -391,33 +374,52 @@
       </div>
     </section>
 
-    <!-- ============================= TECHNICAL SHOWCASE (TABS) ============================= -->
-    <section id="showcase" class="border-t border-slate-200 py-20 dark:border-slate-800">
+    <!-- ============================= SHOWCASE (TABS) ============================= -->
+    <section id="showcase" class="border-t border-slate-200 py-16 sm:py-20 dark:border-slate-800">
       <div class="mx-auto max-w-6xl px-5">
-        <div class="mb-12 max-w-2xl">
+        <div class="mb-10 max-w-2xl sm:mb-12">
           <h2 class="text-3xl font-bold tracking-tight">Technical Showcase</h2>
-          <p class="mt-3 text-slate-600 dark:text-slate-400">
-            Interview-ready architecture deep-dive: schema design, network data flow, and operational monitoring.
-          </p>
+          <p class="mt-3 text-slate-600 dark:text-slate-400">Network deep-dive: subnet planning, log schema design, and health monitoring.</p>
         </div>
 
         <!-- Tab buttons -->
         <div class="flex flex-wrap gap-2 border-b border-slate-200 dark:border-slate-800">
-          <button data-tab="tab-sql" class="tab-btn -mb-px flex items-center gap-2 border-b-2 border-brand-600 px-4 py-3 text-sm font-semibold text-brand-600">
-            <i data-lucide="database" class="h-4 w-4"></i> SQL Schema DDL
-          </button>
-          <button data-tab="tab-flow" class="tab-btn -mb-px flex items-center gap-2 border-b-2 border-transparent px-4 py-3 text-sm font-semibold text-slate-500 transition hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200">
-            <i data-lucide="network" class="h-4 w-4"></i> System Data Flow
-          </button>
-          <button data-tab="tab-status" class="tab-btn -mb-px flex items-center gap-2 border-b-2 border-transparent px-4 py-3 text-sm font-semibold text-slate-500 transition hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200">
-            <i data-lucide="activity" class="h-4 w-4"></i> Cloud Infrastructure Status
-          </button>
+          <button data-tab="tab-subnet" class="tab-btn -mb-px flex items-center gap-2 border-b-2 border-brand-600 px-3 py-3 text-sm font-semibold text-brand-600 sm:px-4"><i data-lucide="table" class="h-4 w-4"></i> IPv4 Subnetting Plan</button>
+          <button data-tab="tab-sql" class="tab-btn -mb-px flex items-center gap-2 border-b-2 border-transparent px-3 py-3 text-sm font-semibold text-slate-500 transition hover:text-slate-800 sm:px-4 dark:text-slate-400 dark:hover:text-slate-200"><i data-lucide="database" class="h-4 w-4"></i> SQL Network Log DDL</button>
+          <button data-tab="tab-health" class="tab-btn -mb-px flex items-center gap-2 border-b-2 border-transparent px-3 py-3 text-sm font-semibold text-slate-500 transition hover:text-slate-800 sm:px-4 dark:text-slate-400 dark:hover:text-slate-200"><i data-lucide="activity" class="h-4 w-4"></i> Network Health Monitor</button>
         </div>
 
-        <!-- Tab panels -->
         <div class="mt-6">
-          <!-- Tab 1: SQL Schema DDL -->
-          <div id="tab-sql" class="tab-panel">
+          <!-- Tab 1: Subnetting plan -->
+          <div id="tab-subnet" class="tab-panel">
+            <div class="overflow-hidden rounded-2xl border border-slate-200 bg-white dark:border-slate-800 dark:bg-slate-900">
+              <div class="border-b border-slate-200 px-5 py-3 dark:border-slate-800">
+                <p class="text-sm font-semibold">Base network <span class="font-mono text-brand-600">192.168.1.0/24</span> divided into four <span class="font-mono text-brand-600">/26</span> subnets</p>
+              </div>
+              <div class="overflow-x-auto">
+                <table class="w-full min-w-[600px] text-left text-sm">
+                  <thead class="bg-slate-50 text-xs uppercase tracking-wide text-slate-500 dark:bg-slate-950 dark:text-slate-400">
+                    <tr>
+                      <th class="px-5 py-3 font-semibold">Subnet</th>
+                      <th class="px-5 py-3 font-semibold">Network (CIDR)</th>
+                      <th class="px-5 py-3 font-semibold">Usable Range</th>
+                      <th class="px-5 py-3 font-semibold">Broadcast</th>
+                      <th class="px-5 py-3 font-semibold">Hosts</th>
+                    </tr>
+                  </thead>
+                  <tbody class="divide-y divide-slate-200 font-mono text-slate-600 dark:divide-slate-800 dark:text-slate-300">
+                    <tr><td class="px-5 py-3 font-sans font-medium text-slate-800 dark:text-slate-200">LAN</td><td class="px-5 py-3">192.168.1.0/26</td><td class="px-5 py-3">.1 – .62</td><td class="px-5 py-3">192.168.1.63</td><td class="px-5 py-3">62</td></tr>
+                    <tr><td class="px-5 py-3 font-sans font-medium text-slate-800 dark:text-slate-200">DMZ</td><td class="px-5 py-3">192.168.1.64/26</td><td class="px-5 py-3">.65 – .126</td><td class="px-5 py-3">192.168.1.127</td><td class="px-5 py-3">62</td></tr>
+                    <tr><td class="px-5 py-3 font-sans font-medium text-slate-800 dark:text-slate-200">DB</td><td class="px-5 py-3">192.168.1.128/26</td><td class="px-5 py-3">.129 – .190</td><td class="px-5 py-3">192.168.1.191</td><td class="px-5 py-3">62</td></tr>
+                    <tr><td class="px-5 py-3 font-sans font-medium text-slate-800 dark:text-slate-200">Reserved</td><td class="px-5 py-3">192.168.1.192/26</td><td class="px-5 py-3">.193 – .254</td><td class="px-5 py-3">192.168.1.255</td><td class="px-5 py-3">62</td></tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tab 2: SQL DDL -->
+          <div id="tab-sql" class="tab-panel hidden">
             <div class="overflow-hidden rounded-2xl border border-slate-800 bg-slate-900 shadow-sm">
               <div class="flex items-center justify-between border-b border-slate-800 bg-slate-950 px-4 py-2.5">
                 <div class="flex items-center gap-2">
@@ -425,134 +427,65 @@
                   <span class="h-3 w-3 rounded-full bg-amber-400"></span>
                   <span class="h-3 w-3 rounded-full bg-emerald-400"></span>
                 </div>
-                <span class="font-mono text-xs text-slate-400">schema.sql — PostgreSQL</span>
+                <span class="font-mono text-xs text-slate-400">network_logs.sql — PostgreSQL</span>
               </div>
-<pre class="overflow-x-auto p-5 font-mono text-xs leading-relaxed text-slate-200"><code>-- ============================================
--- Cloud Network Infrastructure Schema (PostgreSQL)
--- ============================================
+<pre class="overflow-x-auto p-5 font-mono text-xs leading-relaxed text-slate-200"><code>-- =====================================================
+-- Network Firewall Log Schema (PostgreSQL)
+-- =====================================================
 
-CREATE TABLE vpc_subnets (
-    subnet_id       SERIAL PRIMARY KEY,
-    subnet_name     VARCHAR(64)  NOT NULL UNIQUE,
-    cidr_block      CIDR         NOT NULL,
-    region          VARCHAR(32)  NOT NULL DEFAULT 'asia-southeast2',
-    is_public       BOOLEAN      NOT NULL DEFAULT FALSE,
-    created_at      TIMESTAMPTZ  NOT NULL DEFAULT NOW()
+CREATE TABLE devices (
+    device_id    SERIAL PRIMARY KEY,
+    hostname     VARCHAR(64)  NOT NULL UNIQUE,
+    ip_address   INET         NOT NULL,
+    subnet       CIDR         NOT NULL,
+    role         VARCHAR(16)  NOT NULL CHECK (role IN ('router','switch','firewall','server'))
 );
 
-CREATE TABLE firewalls (
-    firewall_id     SERIAL PRIMARY KEY,
-    rule_name       VARCHAR(64)  NOT NULL UNIQUE,
-    subnet_id       INTEGER      NOT NULL,
-    direction       VARCHAR(8)   NOT NULL CHECK (direction IN ('INGRESS','EGRESS')),
-    protocol        VARCHAR(8)   NOT NULL CHECK (protocol IN ('tcp','udp','icmp')),
-    port_range      VARCHAR(16),
-    action          VARCHAR(8)   NOT NULL DEFAULT 'ALLOW'
-                                 CHECK (action IN ('ALLOW','DENY')),
-    priority        INTEGER      NOT NULL DEFAULT 1000,
-    -- Foreign key: each firewall rule binds to one subnet
-    CONSTRAINT fk_subnet
-        FOREIGN KEY (subnet_id)
-        REFERENCES vpc_subnets (subnet_id)
-        ON DELETE CASCADE
+CREATE TABLE firewall_logs (
+    log_id       BIGSERIAL PRIMARY KEY,
+    device_id    INTEGER      NOT NULL,
+    src_ip       INET         NOT NULL,
+    dst_ip       INET         NOT NULL,
+    protocol     VARCHAR(8)   NOT NULL CHECK (protocol IN ('tcp','udp','icmp')),
+    dst_port     INTEGER      CHECK (dst_port BETWEEN 0 AND 65535),
+    action       VARCHAR(8)   NOT NULL CHECK (action IN ('ALLOW','DENY')),
+    logged_at    TIMESTAMPTZ  NOT NULL DEFAULT NOW(),
+    CONSTRAINT fk_device
+        FOREIGN KEY (device_id) REFERENCES devices (device_id) ON DELETE CASCADE
 );
 
--- Index to speed up rule lookups per subnet
-CREATE INDEX idx_firewalls_subnet ON firewalls (subnet_id);
+-- Index for fast time-based log queries per device
+CREATE INDEX idx_logs_device_time ON firewall_logs (device_id, logged_at);
 </code></pre>
             </div>
           </div>
 
-          <!-- Tab 2: System Data Flow -->
-          <div id="tab-flow" class="tab-panel hidden">
-            <div class="rounded-2xl border border-slate-200 bg-white p-8 dark:border-slate-800 dark:bg-slate-900">
-              <p class="mb-8 text-sm text-slate-600 dark:text-slate-400">
-                End-to-end request path through a secured GCP VPC — public ingress is filtered before it can reach the isolated private database tier.
-              </p>
-
-              <div class="flex flex-col items-stretch gap-4 lg:flex-row lg:items-center">
-                <!-- Node 1 -->
-                <div class="flex flex-1 flex-col items-center rounded-xl border border-slate-200 bg-slate-50 p-5 text-center dark:border-slate-700 dark:bg-slate-950">
-                  <i data-lucide="globe" class="h-7 w-7 text-brand-600"></i>
-                  <p class="mt-2 text-sm font-semibold">Client / Internet</p>
-                  <p class="text-xs text-slate-500 dark:text-slate-400">Public request</p>
-                </div>
-
-                <i data-lucide="arrow-right" class="mx-auto hidden h-6 w-6 shrink-0 text-slate-400 lg:block"></i>
-                <i data-lucide="arrow-down" class="mx-auto h-6 w-6 shrink-0 text-slate-400 lg:hidden"></i>
-
-                <!-- Node 2 -->
-                <div class="flex flex-1 flex-col items-center rounded-xl border border-slate-200 bg-slate-50 p-5 text-center dark:border-slate-700 dark:bg-slate-950">
-                  <i data-lucide="router" class="h-7 w-7 text-brand-600"></i>
-                  <p class="mt-2 text-sm font-semibold">GCP Cloud NAT / Public Subnet</p>
-                  <p class="text-xs text-slate-500 dark:text-slate-400">Edge entry tier</p>
-                </div>
-
-                <i data-lucide="arrow-right" class="mx-auto hidden h-6 w-6 shrink-0 text-slate-400 lg:block"></i>
-                <i data-lucide="arrow-down" class="mx-auto h-6 w-6 shrink-0 text-slate-400 lg:hidden"></i>
-
-                <!-- Node 3 -->
-                <div class="flex flex-1 flex-col items-center rounded-xl border border-amber-300 bg-amber-50 p-5 text-center dark:border-amber-500/40 dark:bg-amber-500/10">
-                  <i data-lucide="shield" class="h-7 w-7 text-amber-600 dark:text-amber-400"></i>
-                  <p class="mt-2 text-sm font-semibold">Firewall Rule Filter</p>
-                  <p class="text-xs text-slate-500 dark:text-slate-400">Ingress policy check</p>
-                </div>
-
-                <i data-lucide="arrow-right" class="mx-auto hidden h-6 w-6 shrink-0 text-slate-400 lg:block"></i>
-                <i data-lucide="arrow-down" class="mx-auto h-6 w-6 shrink-0 text-slate-400 lg:hidden"></i>
-
-                <!-- Node 4 -->
-                <div class="flex flex-1 flex-col items-center rounded-xl border border-emerald-300 bg-emerald-50 p-5 text-center dark:border-emerald-500/40 dark:bg-emerald-500/10">
-                  <i data-lucide="database-zap" class="h-7 w-7 text-emerald-600 dark:text-emerald-400"></i>
-                  <p class="mt-2 text-sm font-semibold">Isolated Private Subnet DB</p>
-                  <p class="text-xs text-slate-500 dark:text-slate-400">No public IP</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Tab 3: Cloud Infrastructure Status -->
-          <div id="tab-status" class="tab-panel hidden">
-            <div class="rounded-2xl border border-slate-200 bg-white p-8 dark:border-slate-800 dark:bg-slate-900">
+          <!-- Tab 3: Health monitor -->
+          <div id="tab-health" class="tab-panel hidden">
+            <div class="rounded-2xl border border-slate-200 bg-white p-6 sm:p-8 dark:border-slate-800 dark:bg-slate-900">
               <div class="mb-6 flex items-center gap-3">
                 <span class="relative flex h-3 w-3">
                   <span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-75"></span>
                   <span class="relative inline-flex h-3 w-3 rounded-full bg-emerald-500"></span>
                 </span>
-                <p class="text-sm font-semibold text-slate-700 dark:text-slate-300">All systems operational</p>
+                <p class="text-sm font-semibold text-slate-700 dark:text-slate-300">Network operational</p>
               </div>
-
               <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
                 <div class="rounded-xl border border-slate-200 bg-slate-50 p-5 dark:border-slate-700 dark:bg-slate-950">
-                  <div class="flex items-center gap-2 text-slate-500 dark:text-slate-400">
-                    <i data-lucide="check-circle-2" class="h-4 w-4 text-emerald-500"></i>
-                    <span class="text-xs font-medium uppercase tracking-wide">Status</span>
-                  </div>
-                  <p class="mt-2 font-mono text-xl font-semibold text-emerald-600 dark:text-emerald-400">200 OK</p>
+                  <div class="flex items-center gap-2 text-slate-500 dark:text-slate-400"><i data-lucide="router" class="h-4 w-4 text-emerald-500"></i><span class="text-xs font-medium uppercase tracking-wide">Gateway</span></div>
+                  <p class="mt-2 font-mono text-xl font-semibold text-emerald-600 dark:text-emerald-400">Active</p>
                 </div>
-
                 <div class="rounded-xl border border-slate-200 bg-slate-50 p-5 dark:border-slate-700 dark:bg-slate-950">
-                  <div class="flex items-center gap-2 text-slate-500 dark:text-slate-400">
-                    <i data-lucide="gauge" class="h-4 w-4 text-brand-600"></i>
-                    <span class="text-xs font-medium uppercase tracking-wide">Avg Latency</span>
-                  </div>
-                  <p class="mt-2 font-mono text-xl font-semibold text-slate-800 dark:text-slate-100">12ms</p>
+                  <div class="flex items-center gap-2 text-slate-500 dark:text-slate-400"><i data-lucide="package-x" class="h-4 w-4 text-brand-600"></i><span class="text-xs font-medium uppercase tracking-wide">Packet Loss</span></div>
+                  <p class="mt-2 font-mono text-xl font-semibold text-slate-800 dark:text-slate-100">0%</p>
                 </div>
-
                 <div class="rounded-xl border border-slate-200 bg-slate-50 p-5 dark:border-slate-700 dark:bg-slate-950">
-                  <div class="flex items-center gap-2 text-slate-500 dark:text-slate-400">
-                    <i data-lucide="globe-2" class="h-4 w-4 text-brand-600"></i>
-                    <span class="text-xs font-medium uppercase tracking-wide">Region</span>
-                  </div>
-                  <p class="mt-2 font-mono text-xl font-semibold text-slate-800 dark:text-slate-100">asia-southeast2</p>
+                  <div class="flex items-center gap-2 text-slate-500 dark:text-slate-400"><i data-lucide="gauge" class="h-4 w-4 text-brand-600"></i><span class="text-xs font-medium uppercase tracking-wide">Latency</span></div>
+                  <p class="mt-2 font-mono text-xl font-semibold text-slate-800 dark:text-slate-100">4ms</p>
                 </div>
-
                 <div class="rounded-xl border border-slate-200 bg-slate-50 p-5 dark:border-slate-700 dark:bg-slate-950">
-                  <div class="flex items-center gap-2 text-slate-500 dark:text-slate-400">
-                    <i data-lucide="lock" class="h-4 w-4 text-brand-600"></i>
-                    <span class="text-xs font-medium uppercase tracking-wide">Security</span>
-                  </div>
-                  <p class="mt-2 text-sm font-semibold text-slate-800 dark:text-slate-100">Isolated Private Subnets</p>
+                  <div class="flex items-center gap-2 text-slate-500 dark:text-slate-400"><i data-lucide="shield" class="h-4 w-4 text-brand-600"></i><span class="text-xs font-medium uppercase tracking-wide">Firewall</span></div>
+                  <p class="mt-2 text-sm font-semibold text-slate-800 dark:text-slate-100">Rules Enforced</p>
                 </div>
               </div>
             </div>
@@ -567,7 +500,7 @@ CREATE INDEX idx_firewalls_subnet ON firewalls (subnet_id);
         <div class="mb-12 max-w-2xl">
           <h2 class="text-3xl font-bold tracking-tight">Projects</h2>
           <p class="mt-3 text-slate-600 dark:text-slate-400">
-            A live full-stack web app, plus cloud infrastructure builds currently in progress.
+            Live web apps, source code, and network infrastructure builds in progress.
           </p>
         </div>
 
@@ -746,8 +679,7 @@ CREATE INDEX idx_firewalls_subnet ON firewalls (subnet_id);
   <!-- ============================= FOOTER ============================= -->
   <footer class="border-t border-slate-200 bg-white py-8 dark:border-slate-800 dark:bg-slate-950">
     <div class="mx-auto max-w-6xl px-5 text-center text-sm text-slate-500 dark:text-slate-400">
-      © 2026 | Built with HTML &amp; Tailwind CSS | Vercel Static Ready
-    </div>
+      © 2026 Maria · Network Engineer · Built with HTML &amp; Tailwind CSS · Vercel Static Ready
   </footer>
 
   <!-- ============================= VANILLA JS ============================= -->
@@ -814,7 +746,7 @@ CREATE INDEX idx_firewalls_subnet ON firewalls (subnet_id);
       e.target.reset();
     });
 
-    // ---------- Graceful PDF links ----------
+    // ---------- PDF links ----------
     // The CV and certificate links point to real files you add later
     // (./cv/... and ./certificates/...). Until those PDFs exist, this
     // check avoids an ugly 404 and tells you exactly what to do.
