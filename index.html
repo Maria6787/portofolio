@@ -559,79 +559,41 @@ CREATE INDEX idx_logs_device_time ON firewall_logs (device_id, logged_at);
             </a>
           </article>
 
-          <!-- EDIT PROJECT 3 HERE  (COMING SOON) -->
-          <article class="flex flex-col rounded-2xl border border-dashed border-slate-300 bg-slate-50/60 p-6 dark:border-slate-700 dark:bg-slate-950/60">
+          <!-- Project 3: LIVE — Courts -->
+          <article class="flex flex-col rounded-2xl border border-slate-200 bg-slate-50 p-6 transition hover:border-brand-500/50 hover:shadow-md dark:border-slate-800 dark:bg-slate-950">
             <div class="mb-4 flex items-center justify-between">
-              <span class="flex h-11 w-11 items-center justify-center rounded-lg bg-slate-200 text-slate-500 dark:bg-slate-800 dark:text-slate-400">
-                <i data-lucide="network" class="h-5 w-5"></i>
-              </span>
-              <span class="rounded-full bg-amber-500/10 px-2.5 py-1 text-xs font-semibold text-amber-600 dark:text-amber-400">In Progress</span>
+              <span class="flex h-11 w-11 items-center justify-center rounded-lg bg-brand-600/10 text-brand-600"><i data-lucide="calendar-check" class="h-5 w-5"></i></span>
+              <span class="rounded-full bg-emerald-500/10 px-2.5 py-1 text-xs font-semibold text-emerald-600 dark:text-emerald-400">Live</span>
             </div>
-            <h3 class="text-lg font-semibold">GCP Multi-Tier VPC &amp; Subnet Architecture</h3>
-            <p class="mt-2 flex-1 text-sm leading-relaxed text-slate-600 dark:text-slate-400">
-              A planned hands-on build: a Virtual Private Cloud (VPC) network topology on Google Cloud Platform with custom CIDR blocks, separating public access tiers from private database instances using strict firewall rules.
-            </p>
+            <h3 class="text-lg font-semibold">Courts — Sewa Lapangan &amp; Sport Store</h3>
+            <p class="mt-2 flex-1 text-sm leading-relaxed text-slate-600 dark:text-slate-400">A production-deployed court-booking platform (padel &amp; badminton) built with Next.js, TypeScript, and Tailwind CSS, backed by Supabase (hosted PostgreSQL) for authentication and data. Deployed on Vercel with environment-based configuration, continuous deployment from GitHub, and Supabase Row-Level Security policies restricting data access per user. Implements a two-tier deposit payment flow, booking/refund lifecycle, and an admin dashboard. Focus: cloud deployment, managed database integration, environment &amp; secrets management, and CI/CD workflow.</p>
             <div class="mt-4 flex flex-wrap gap-2">
-              <span class="rounded-full bg-slate-200 px-2.5 py-1 text-xs font-medium text-slate-600 dark:bg-slate-800 dark:text-slate-400">GCP</span>
-              <span class="rounded-full bg-slate-200 px-2.5 py-1 text-xs font-medium text-slate-600 dark:bg-slate-800 dark:text-slate-400">VPC</span>
-              <span class="rounded-full bg-slate-200 px-2.5 py-1 text-xs font-medium text-slate-600 dark:bg-slate-800 dark:text-slate-400">CIDR</span>
-              <span class="rounded-full bg-slate-200 px-2.5 py-1 text-xs font-medium text-slate-600 dark:bg-slate-800 dark:text-slate-400">Firewalls</span>
+              <span class="rounded-full bg-brand-600/10 px-2.5 py-1 text-xs font-medium text-brand-700 dark:text-brand-500">Next.js</span>
+              <span class="rounded-full bg-brand-600/10 px-2.5 py-1 text-xs font-medium text-brand-700 dark:text-brand-500">TypeScript</span>
+              <span class="rounded-full bg-brand-600/10 px-2.5 py-1 text-xs font-medium text-brand-700 dark:text-brand-500">Supabase</span>
+              <span class="rounded-full bg-brand-600/10 px-2.5 py-1 text-xs font-medium text-brand-700 dark:text-brand-500">PostgreSQL</span>
+              <span class="rounded-full bg-brand-600/10 px-2.5 py-1 text-xs font-medium text-brand-700 dark:text-brand-500">Vercel CI/CD</span>
             </div>
-            <!-- EDIT URL HERE when the project is ready, then change the label to "View Project" -->
-            <span class="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-slate-400 dark:text-slate-500">
-              Coming soon — to be continued
-              <i data-lucide="clock" class="h-4 w-4"></i>
-            </span>
+            <a href="https://courts-app.vercel.app" target="_blank" rel="noopener" class="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-brand-600 transition hover:text-brand-700 dark:hover:text-brand-500">View Live Demo <i data-lucide="external-link" class="h-4 w-4"></i></a>
           </article>
 
-          <!-- EDIT PROJECT 4 HERE  (COMING SOON) -->
-          <article class="flex flex-col rounded-2xl border border-dashed border-slate-300 bg-slate-50/60 p-6 dark:border-slate-700 dark:bg-slate-950/60">
+          <!-- Project 4: SOURCE — EventHub -->
+          <article class="flex flex-col rounded-2xl border border-slate-200 bg-slate-50 p-6 transition hover:border-brand-500/50 hover:shadow-md dark:border-slate-800 dark:bg-slate-950">
             <div class="mb-4 flex items-center justify-between">
-              <span class="flex h-11 w-11 items-center justify-center rounded-lg bg-slate-200 text-slate-500 dark:bg-slate-800 dark:text-slate-400">
-                <i data-lucide="database" class="h-5 w-5"></i>
-              </span>
-              <span class="rounded-full bg-amber-500/10 px-2.5 py-1 text-xs font-semibold text-amber-600 dark:text-amber-400">In Progress</span>
+              <span class="flex h-11 w-11 items-center justify-center rounded-lg bg-brand-600/10 text-brand-600"><i data-lucide="boxes" class="h-5 w-5"></i></span>
+              <span class="rounded-full bg-brand-600/10 px-2.5 py-1 text-xs font-semibold text-brand-700 dark:text-brand-500">Source</span>
             </div>
-            <h3 class="text-lg font-semibold">Relational Database Infrastructure &amp; SQL Schema</h3>
-            <p class="mt-2 flex-1 text-sm leading-relaxed text-slate-600 dark:text-slate-400">
-              A planned build: normalized relational SQL database schemas (PostgreSQL/MySQL) with strict foreign key constraints, indexes, and automated subnet deployment scripts.
-            </p>
+            <h3 class="text-lg font-semibold">EventHub — Multi-Container Networking Project</h3>
+            <p class="mt-2 flex-1 text-sm leading-relaxed text-slate-600 dark:text-slate-400">Built a 3-tier app to practice container networking fundamentals: created an isolated bridge network where services communicate by hostname via Docker's embedded DNS (no hard-coded IPs), exposed only required ports to the host while keeping the database and cache private, and enforced startup ordering with healthchecks and depends_on conditions. Reinforced concepts of network isolation, port mapping, service discovery, and the OS-level virtualization (namespaces/cgroups) that underpins containers.</p>
             <div class="mt-4 flex flex-wrap gap-2">
-              <span class="rounded-full bg-slate-200 px-2.5 py-1 text-xs font-medium text-slate-600 dark:bg-slate-800 dark:text-slate-400">PostgreSQL</span>
-              <span class="rounded-full bg-slate-200 px-2.5 py-1 text-xs font-medium text-slate-600 dark:bg-slate-800 dark:text-slate-400">MySQL</span>
-              <span class="rounded-full bg-slate-200 px-2.5 py-1 text-xs font-medium text-slate-600 dark:bg-slate-800 dark:text-slate-400">SQL DDL</span>
-              <span class="rounded-full bg-slate-200 px-2.5 py-1 text-xs font-medium text-slate-600 dark:bg-slate-800 dark:text-slate-400">Database Security</span>
+              <span class="rounded-full bg-brand-600/10 px-2.5 py-1 text-xs font-medium text-brand-700 dark:text-brand-500">Docker</span>
+              <span class="rounded-full bg-brand-600/10 px-2.5 py-1 text-xs font-medium text-brand-700 dark:text-brand-500">Docker Compose</span>
+              <span class="rounded-full bg-brand-600/10 px-2.5 py-1 text-xs font-medium text-brand-700 dark:text-brand-500">Container Networking</span>
+              <span class="rounded-full bg-brand-600/10 px-2.5 py-1 text-xs font-medium text-brand-700 dark:text-brand-500">Service Discovery</span>
             </div>
-            <!-- EDIT URL HERE when the project is ready, then change the label to "View Project" -->
-            <span class="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-slate-400 dark:text-slate-500">
-              Coming soon — to be continued
-              <i data-lucide="clock" class="h-4 w-4"></i>
-            </span>
-          </article>
-
-          <!-- EDIT PROJECT 5 HERE  (COMING SOON) -->
-          <article class="flex flex-col rounded-2xl border border-dashed border-slate-300 bg-slate-50/60 p-6 dark:border-slate-700 dark:bg-slate-950/60">
-            <div class="mb-4 flex items-center justify-between">
-              <span class="flex h-11 w-11 items-center justify-center rounded-lg bg-slate-200 text-slate-500 dark:bg-slate-800 dark:text-slate-400">
-                <i data-lucide="server" class="h-5 w-5"></i>
-              </span>
-              <span class="rounded-full bg-amber-500/10 px-2.5 py-1 text-xs font-semibold text-amber-600 dark:text-amber-400">In Progress</span>
-            </div>
-            <h3 class="text-lg font-semibold">Linux Web &amp; Systems Administration</h3>
-            <p class="mt-2 flex-1 text-sm leading-relaxed text-slate-600 dark:text-slate-400">
-              A planned build: Linux/Unix server environments configured with shell/bash scripts, reverse proxies, port routing, and secure SSH key-based access control.
-            </p>
-            <div class="mt-4 flex flex-wrap gap-2">
-              <span class="rounded-full bg-slate-200 px-2.5 py-1 text-xs font-medium text-slate-600 dark:bg-slate-800 dark:text-slate-400">Linux Admin</span>
-              <span class="rounded-full bg-slate-200 px-2.5 py-1 text-xs font-medium text-slate-600 dark:bg-slate-800 dark:text-slate-400">Bash</span>
-              <span class="rounded-full bg-slate-200 px-2.5 py-1 text-xs font-medium text-slate-600 dark:bg-slate-800 dark:text-slate-400">Networking</span>
-              <span class="rounded-full bg-slate-200 px-2.5 py-1 text-xs font-medium text-slate-600 dark:bg-slate-800 dark:text-slate-400">System Admin</span>
-            </div>
-            <!-- EDIT URL HERE when the project is ready, then change the label to "View Project" -->
-            <span class="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-slate-400 dark:text-slate-500">
-              Coming soon — to be continued
-              <i data-lucide="clock" class="h-4 w-4"></i>
-            </span>
+            <a href="https://github.com/Maria6787/eventhub" target="_blank" rel="noopener" class="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-brand-600 transition hover:text-brand-700 dark:hover:text-brand-500">View Code on GitHub
+              <svg class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5A11.5 11.5 0 0 0 .5 12a11.5 11.5 0 0 0 7.86 10.92c.57.1.78-.25.78-.55v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.56-.29-5.26-1.28-5.26-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.43-2.7 5.41-5.27 5.69.41.36.78 1.06.78 2.14v3.17c0 .31.21.66.79.55A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5Z"/></svg>
+            </a>
           </article>
         </div>
       </div>
